@@ -1,10 +1,10 @@
 <?php
 
-namespace hafizhassan\AdminOci8\controllers;
+namespace ekalokman\AdminOci8\controllers;
 
 use Yii;
-use hafizhassan\AdminOci8\models\Menu;
-use hafizhassan\AdminOci8\models\searchs\Menu as MenuSearch;
+use ekalokman\AdminOci8\models\Menu;
+use ekalokman\AdminOci8\models\searchs\Menu as MenuSearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;

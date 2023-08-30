@@ -9,11 +9,11 @@ Using module in configuration
 'modules' => [
     ...
     'admin' => [
-        'class' => 'hafizhassan\AdminOci8\Module',
+        'class' => 'ekalokman\AdminOci8\Module',
         'layout' => 'left-menu', // it can be '@path/to/your/layout'.
         'controllerMap' => [
             'assignment' => [
-                'class' => 'hafizhassan\AdminOci8\controllers\AssignmentController',
+                'class' => 'ekalokman\AdminOci8\controllers\AssignmentController',
                 'userClassName' => 'app\models\User',
                 'idField' => 'user_id'
             ],
@@ -37,11 +37,11 @@ Access Control Filter (ACF) is a simple authorization method that is best used b
 As its name indicates, ACF is an action filter that can be attached to a controller or a module as a behavior. 
 ACF will check a set of access rules to make sure the current user can access the requested action.
 
-The code below shows how to use ACF which is implemented as `hafizhassan\AdminOci8\components\AccessControl`:
+The code below shows how to use ACF which is implemented as `ekalokman\AdminOci8\components\AccessControl`:
 
 ```php
 'as access' => [
-    'class' => 'hafizhassan\AdminOci8\components\AccessControl',
+    'class' => 'ekalokman\AdminOci8\components\AccessControl',
     'allowActions' => [
         'site/login', 
         'site/error',

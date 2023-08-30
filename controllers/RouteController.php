@@ -1,15 +1,15 @@
 <?php
 
-namespace hafizhassan\AdminOci8\controllers;
+namespace ekalokman\AdminOci8\controllers;
 
 use Yii;
-use hafizhassan\AdminOci8\models\Route;
-use hafizhassan\AdminOci8\components\MenuHelper;
+use ekalokman\AdminOci8\models\Route;
+use ekalokman\AdminOci8\components\MenuHelper;
 use yii\caching\TagDependency;
 use yii\web\Response;
 use yii\helpers\Html;
-use hafizhassan\AdminOci8\components\RouteRule;
-use hafizhassan\AdminOci8\components\Configs;
+use ekalokman\AdminOci8\components\RouteRule;
+use ekalokman\AdminOci8\components\Configs;
 use yii\helpers\Inflector;
 use yii\helpers\VarDumper;
 use Exception;

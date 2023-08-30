@@ -1,14 +1,14 @@
 <?php
 
-namespace hafizhassan\AdminOci8\models\searchs;
+namespace ekalokman\AdminOci8\models\searchs;
 
 use Yii;
 use yii\base\Model;
 use yii\data\ActiveDataProvider;
-use hafizhassan\AdminOci8\models\Menu as MenuModel;
+use ekalokman\AdminOci8\models\Menu as MenuModel;
 
 /**
- * Menu represents the model behind the search form about [[\hafizhassan\AdminOci8\models\Menu]].
+ * Menu represents the model behind the search form about [[\ekalokman\AdminOci8\models\Menu]].
  * 
  * @author Misbahul D Munir <misbahuldmunir@gmail.com>
  * @since 1.0

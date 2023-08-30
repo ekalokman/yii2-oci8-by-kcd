@@ -1,6 +1,6 @@
 <?php
 
-namespace hafizhassan\AdminOci8\components;
+namespace ekalokman\AdminOci8\components;
 
 use Yii;
 use yii\db\Connection;
@@ -24,7 +24,7 @@ use yii\helpers\ArrayHelper;
  * or use [[\Yii::$container]]
  * 
  * ~~~
- * Yii::$container->set('hafizhassan\AdminOci8\components\Configs',[
+ * Yii::$container->set('ekalokman\AdminOci8\components\Configs',[
  *     'db' => 'customDb',
  *     'menuTable' => 'admin_menu',
  * ]);

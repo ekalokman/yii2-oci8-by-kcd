@@ -1,6 +1,6 @@
 <?php
 
-namespace hafizhassan\AdminOci8;
+namespace ekalokman\AdminOci8;
 
 /**
  * AdminAsset
@@ -13,7 +13,7 @@ class AdminAsset extends \yii\web\AssetBundle
     /**
      * @inheritdoc
      */
-    public $sourcePath = '@hafizhassan/AdminOci8';
+    public $sourcePath = '@ekalokman/AdminOci8';
 
     /**
      * @inheritdoc

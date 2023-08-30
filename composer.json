@@ -1,17 +1,17 @@
 {
-    "name": "hafizhassan/yii2-admin-oci8-by-kcd",
+    "name": "ekalokman/yii2-admin-oci8-by-kcd",
     "description": "Auth manager for Yii2 Oracle Oci8 ",
     "keywords": ["yii", "admin", "auth"],
     "version" : "1.0.0",
     "type": "yii2-extension",
     "license": "BSD-3-Clause",
     "support": {
-        "issues": "https://github.com/hafizhassan/yii2-admin-oci8/issues",
-        "source": "https://github.com/hafizhassan/yii2-admin-oci8"
+        "issues": "https://github.com/ekalokman/yii2-admin-oci8/issues",
+        "source": "https://github.com/ekalokman/yii2-admin-oci8"
     },
     "authors": [
         {
-            "name": "hafizhassan",
+            "name": "ekalokman",
             "email": "hafiz.hassan@hotmail.my"
         }
     ],
@@ -23,7 +23,7 @@
     },
     "autoload": {
         "psr-4": {
-            "hafizhassan\\AdminOci8\\": ""
+            "ekalokman\\AdminOci8\\": ""
         }
     },
     "extra": {

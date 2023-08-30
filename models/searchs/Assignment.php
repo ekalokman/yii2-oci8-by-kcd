@@ -1,6 +1,6 @@
 <?php
 
-namespace hafizhassan\AdminOci8\models\searchs;
+namespace ekalokman\AdminOci8\models\searchs;
 
 use Yii;
 use yii\base\Model;

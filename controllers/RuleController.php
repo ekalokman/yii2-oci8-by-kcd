@@ -1,14 +1,14 @@
 <?php
 
-namespace hafizhassan\AdminOci8\controllers;
+namespace ekalokman\AdminOci8\controllers;
 
 use Yii;
-use hafizhassan\AdminOci8\models\BizRule;
+use ekalokman\AdminOci8\models\BizRule;
 use yii\web\Controller;
-use hafizhassan\AdminOci8\models\searchs\BizRule as BizRuleSearch;
+use ekalokman\AdminOci8\models\searchs\BizRule as BizRuleSearch;
 use yii\filters\VerbFilter;
 use yii\web\NotFoundHttpException;
-use hafizhassan\AdminOci8\components\MenuHelper;
+use ekalokman\AdminOci8\components\MenuHelper;
 
 /**
  * Description of RuleController

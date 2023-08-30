@@ -1,15 +1,15 @@
 <?php
 
-namespace hafizhassan\AdminOci8\controllers;
+namespace ekalokman\AdminOci8\controllers;
 
-use hafizhassan\AdminOci8\models\AuthItem;
-use hafizhassan\AdminOci8\models\searchs\AuthItem as AuthItemSearch;
+use ekalokman\AdminOci8\models\AuthItem;
+use ekalokman\AdminOci8\models\searchs\AuthItem as AuthItemSearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
 use yii\rbac\Item;
 use Yii;
-use hafizhassan\AdminOci8\components\MenuHelper;
+use ekalokman\AdminOci8\components\MenuHelper;
 use yii\helpers\Html;
 
 /**

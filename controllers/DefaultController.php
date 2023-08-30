@@ -1,6 +1,6 @@
 <?php
 
-namespace hafizhassan\AdminOci8\controllers;
+namespace ekalokman\AdminOci8\controllers;
 
 /**
  * DefaultController

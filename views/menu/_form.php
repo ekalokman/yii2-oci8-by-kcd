@@ -2,10 +2,10 @@
 
 use yii\helpers\Html;
 use yii\widgets\ActiveForm;
-use hafizhassan\AdminOci8\models\Menu;
+use ekalokman\AdminOci8\models\Menu;
 
 /* @var $this yii\web\View */
-/* @var $model hafizhassan\AdminOci8\models\Menu */
+/* @var $model ekalokman\AdminOci8\models\Menu */
 /* @var $form yii\widgets\ActiveForm */
 
 ?>

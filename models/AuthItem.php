@@ -1,6 +1,6 @@
 <?php
 
-namespace hafizhassan\AdminOci8\models;
+namespace ekalokman\AdminOci8\models;
 
 use Yii;
 use yii\db;

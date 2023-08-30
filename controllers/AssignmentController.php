@@ -1,15 +1,15 @@
 <?php
 
-namespace hafizhassan\AdminOci8\controllers;
+namespace ekalokman\AdminOci8\controllers;
 
 use Yii;
-use hafizhassan\AdminOci8\models\Assignment;
-use hafizhassan\AdminOci8\models\searchs\Assignment as AssignmentSearch;
+use ekalokman\AdminOci8\models\Assignment;
+use ekalokman\AdminOci8\models\searchs\Assignment as AssignmentSearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
 use yii\helpers\Html;
-use hafizhassan\AdminOci8\components\MenuHelper;
+use ekalokman\AdminOci8\components\MenuHelper;
 use yii\web\Response;
 use yii\rbac\Item;
 use common\components\ImoHelper;

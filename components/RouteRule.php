@@ -1,6 +1,6 @@
 <?php
 
-namespace hafizhassan\AdminOci8\components;
+namespace ekalokman\AdminOci8\components;
 
 /**
  * RouteRule Rule for check route with extra params.

@@ -1,6 +1,6 @@
 <?php
 
-namespace hafizhassan\AdminOci8\components;
+namespace ekalokman\AdminOci8\components;
 
 use yii\web\ForbiddenHttpException;
 use yii\base\Module;
@@ -18,7 +18,7 @@ use yii\di\Instance;
  *
  * ~~~
  * 'as access' => [
- *     'class' => 'hafizhassan\AdminOci8\components\AccessControl',
+ *     'class' => 'ekalokman\AdminOci8\components\AccessControl',
  *     'allowActions' => ['site/login', 'site/error']
  * ]
  * ~~~

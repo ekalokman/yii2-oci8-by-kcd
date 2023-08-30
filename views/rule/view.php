@@ -5,7 +5,7 @@ use yii\widgets\DetailView;
 
 /**
  * @var yii\web\View $this
- * @var hafizhassan\AdminOci8\models\AuthItem $model
+ * @var ekalokman\AdminOci8\models\AuthItem $model
  */
 $this->title = $model->name;
 $this->params['breadcrumbs'][] = ['label' => 'Roles', 'url' => ['index']];

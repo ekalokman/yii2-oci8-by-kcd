@@ -1,6 +1,6 @@
 <?php
 
-namespace hafizhassan\AdminOci8;
+namespace ekalokman\AdminOci8;
 
 use Yii;
 use yii\helpers\Inflector;
@@ -15,7 +15,7 @@ use yii\helpers\Inflector;
  * 'layout' => 'left-menu', // default to null mean use application layout.
  * 'controllerMap' => [
  *     'assignment' => [
- *         'class' => 'hafizhassan\AdminOci8\controllers\AssignmentController',
+ *         'class' => 'ekalokman\AdminOci8\controllers\AssignmentController',
  *         'userClassName' => 'app\models\User',
  *         'idField' => 'id'
  *     ]
@@ -60,7 +60,7 @@ class Module extends \yii\base\Module
      * @var string Main layout using for module. Default to layout of parent module.
      * Its used when `layout` set to 'left-menu', 'right-menu' or 'top-menu'.
      */
-    public $mainLayout ='@hafizhassan/AdminOci8/views/layouts/main.php';
+    public $mainLayout ='@ekalokman/AdminOci8/views/layouts/main.php';
 
     /**
      * @inheritdoc
@@ -71,7 +71,7 @@ class Module extends \yii\base\Module
         Yii::$app->i18n->translations['rbac-admin'] = [
             'class' => 'yii\i18n\PhpMessageSource',
             'sourceLanguage' => 'en',
-            'basePath' => '@hafizhassan/AdminOci8/messages'
+            'basePath' => '@ekalokman/AdminOci8/messages'
             
         ];
         //user did not define the Navbar?

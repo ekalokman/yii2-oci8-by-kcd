@@ -6,7 +6,7 @@ use yii\widgets\Pjax;
 
 /* @var $this yii\web\View */
 /* @var $dataProvider yii\data\ActiveDataProvider */
-/* @var $searchModel hafizhassan\AdminOci8\models\searchs\Assignment */
+/* @var $searchModel ekalokman\AdminOci8\models\searchs\Assignment */
 
 $this->title = Yii::t('rbac-admin', 'Assignments');
 $this->params['breadcrumbs'][] = $this->title;

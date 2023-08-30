@@ -1,7 +1,7 @@
 <?php
 
 use yii\db\Schema;
-use hafizhassan\AdminOci8\components\Configs;
+use ekalokman\AdminOci8\components\Configs;
 
 /**
  * Migration table of table_menu

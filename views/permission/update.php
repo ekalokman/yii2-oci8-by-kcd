@@ -3,7 +3,7 @@
 use yii\helpers\Html;
 
 /* @var $this yii\web\View */
-/* @var $model hafizhassan\AdminOci8\models\AuthItem */
+/* @var $model ekalokman\AdminOci8\models\AuthItem */
 
 $this->title = Yii::t('rbac-admin', 'Update Permission') . ': ' . $model->NAME;
 $this->params['breadcrumbs'][] = ['label' => Yii::t('rbac-admin', 'Permissions'), 'url' => ['index']];

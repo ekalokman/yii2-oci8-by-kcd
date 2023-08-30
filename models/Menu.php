@@ -1,9 +1,9 @@
 <?php
 
-namespace hafizhassan\AdminOci8\models;
+namespace ekalokman\AdminOci8\models;
 
 use Yii;
-use hafizhassan\AdminOci8\components\Configs;
+use ekalokman\AdminOci8\components\Configs;
 
 /**
  * This is the model class for table "menu".

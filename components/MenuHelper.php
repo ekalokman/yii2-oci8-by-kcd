@@ -1,17 +1,17 @@
 <?php
 
-namespace hafizhassan\AdminOci8\components;
+namespace ekalokman\AdminOci8\components;
 
 use Yii;
 use yii\caching\TagDependency;
-use hafizhassan\AdminOci8\models\Menu;
+use ekalokman\AdminOci8\models\Menu;
 
 /**
  * MenuHelper used to generate menu depend of user role.
  * Usage
  * 
  * ~~~
- * use hafizhassan\AdminOci8\components\MenuHelper;
+ * use ekalokman\AdminOci8\components\MenuHelper;
  * use yii\bootstrap\Nav;
  *
  * echo Nav::widget([

@@ -18,19 +18,19 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require hafizhassan/yii2-admin-oci8 "dev-master"
+php composer.phar require ekalokman/yii2-admin-oci8 "dev-master"
 ```
 
 for dev-master
 
 ```
-php composer.phar require hafizhassan/yii2-admin-oci8 "dev-master"
+php composer.phar require ekalokman/yii2-admin-oci8 "dev-master"
 ```
 
 or add
 
 ```
-"hafizhassan/yii2-admin-oci8": "dev-master"
+"ekalokman/yii2-admin-oci8": "dev-master"
 ```
 
 to the require section of your `composer.json` file.
@@ -43,7 +43,7 @@ to the require section of your `composer.json` file.
 return [
     ...
     'aliases' => [
-        '@hafizhassan/AdminOci8' => 'path/to/your/extracted',
+        '@ekalokman/AdminOci8' => 'path/to/your/extracted',
         ...
     ]
 ];
@@ -58,7 +58,7 @@ Once the extension is installed, simply modify your application configuration as
 return [
 	'modules' => [
 		'admin' => [
-			'class' => 'hafizhassan\AdminOci8\Module',
+			'class' => 'ekalokman\AdminOci8\Module',
             ...
 		]
 		...
@@ -71,7 +71,7 @@ return [
 		]
 	],
     'as access' => [
-        'class' => 'hafizhassan\AdminOci8\components\AccessControl',
+        'class' => 'ekalokman\AdminOci8\components\AccessControl',
 		'allowActions' => [
 			'admin/*', // add or remove allowed actions to this list
 		]
@@ -110,7 +110,7 @@ Some controller property maybe need to change. To do that, change it via `contro
 			...,
             'controllerMap' => [
                  'assignment' => [
-                    'class' => 'hafizhassan\AdminOci8\controllers\AssignmentController',
+                    'class' => 'ekalokman\AdminOci8\controllers\AssignmentController',
                     'userClassName' => 'path\to\models\User',
                     'idField' => 'user_id', // id field of model User
                 ]

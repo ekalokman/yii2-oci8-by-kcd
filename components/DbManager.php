@@ -1,6 +1,6 @@
 <?php
 
-namespace hafizhassan\AdminOci8\components;
+namespace ekalokman\AdminOci8\components;
 
 use Yii;
 use yii\db\Connection;

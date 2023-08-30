@@ -3,7 +3,7 @@
 use yii\helpers\Html;
 
 /* @var $this yii\web\View */
-/* @var $model hafizhassan\AdminOci8\models\Menu */
+/* @var $model ekalokman\AdminOci8\models\Menu */
 
 $this->title = Yii::t('rbac-admin', 'Update Menu') . ': ' . ' ' . $model->name;
 $this->params['breadcrumbs'][] = ['label' => Yii::t('rbac-admin', 'Menus'), 'url' => ['index']];

@@ -5,7 +5,7 @@ Menu manager used for build hierarchical menu. This is automatically look of use
 role and permision then return menus that he has access.
 
 ```php
-use hafizhassan\AdminOci8\components\MenuHelper;
+use ekalokman\AdminOci8\components\MenuHelper;
 use yii\bootstrap\Nav;
 
 echo Nav::widget([
@@ -13,7 +13,7 @@ echo Nav::widget([
 ]);
 ```
 
-Return of `hafizhassan\AdminOci8\components\MenuHelper::getAssignedMenu()` has default format like:
+Return of `ekalokman\AdminOci8\components\MenuHelper::getAssignedMenu()` has default format like:
 
 ```php
 [
@@ -43,7 +43,7 @@ Return of `hafizhassan\AdminOci8\components\MenuHelper::getAssignedMenu()` has d
 ```
 
 where `$menu` variable corresponden with a record of table `menu`. You can customize 
-return format of `hafizhassan\AdminOci8\components\MenuHelper::getAssignedMenu()` by provide a callback to this methode.
+return format of `ekalokman\AdminOci8\components\MenuHelper::getAssignedMenu()` by provide a callback to this methode.
 The callback must have format `function($menu){}`. E.g:
 
 You can add html options attribut to Your menu, for example "title". When You create a menu, in field data (textarea) fill this :
@@ -71,7 +71,7 @@ You can modify callback function for advanced usage.
 
 Using Sparated Menu
 -------------------
-Second parameter of `hafizhassan\AdminOci8\components\MenuHelper::getAssignedMenu()` used to get menu on it's own hierarchy.
+Second parameter of `ekalokman\AdminOci8\components\MenuHelper::getAssignedMenu()` used to get menu on it's own hierarchy.
 E.g. Your menu structure:
 
 * Side Menu

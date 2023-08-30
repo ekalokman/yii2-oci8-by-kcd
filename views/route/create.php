@@ -5,7 +5,7 @@ use yii\widgets\ActiveForm;
 
 /**
  * @var yii\web\View $this
- * @var hafizhassan\AdminOci8\models\Route $model
+ * @var ekalokman\AdminOci8\models\Route $model
  * @var ActiveForm $form
  */
 

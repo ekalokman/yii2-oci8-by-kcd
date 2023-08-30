@@ -7,7 +7,7 @@ use yii\helpers\Html;
 /* @var $this \yii\web\View */
 /* @var $content string */
 
-hafizhassan\AdminOci8\AdminAsset::register($this);
+ekalokman\AdminOci8\AdminAsset::register($this);
 ?>
 <?php $this->beginPage() ?>
 <!DOCTYPE html>
